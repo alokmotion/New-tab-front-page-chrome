@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+nav {
+     display:flex;
+     justify-content: flex-end;
+     padding: 20px 10px;
+     height: 60px;
+}
+
+.section-one{
+    margin-top: 60px;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    justify-items: center;
+}
+
+li{
+     text-align: center;
+     padding: 14px 12px;
+}
+
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+.small-text{
+    font-size: 0.9rem;
+}
+
+.menu-button{
+    width: 21px;
+    height: 21px;
+    
+}
+.menu-bg:hover{
+    background-color: rgb(100,100,100,0.1);
+    cursor: pointer;
+}
+.menu-bg{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+}
+.profile-picture{
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    padding-bottom: 2px;
+    margin: -9px;
+    
+}
+
+.profile-picture:hover{
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+section{
+    height: 60hv;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo{
+    width: 272px;
+    
+
+}
+
+.form-wrapper{
+    position: relative;
+}
+
+
+.search-icon{
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.search-mic{
+    width: 15px;
+    position: absolute;
+    left: 587px;
+    top: 12px;
+}
+
+
+.search-input{
+    width: 580px;
+    height: 40px;
+    border-radius: 45px;
+    padding-left: 42px;
+    font-size: 1.3rem;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+
+.sortcut-warraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    margin-top: 13px;
+    padding: 20px 10px;
+    gap: 3%;
+    /* border: 2px solid red; */
+    width: 526px;
+    height: 250px;
+    justify-items: center;
+    align-items:center;
+    text-align: center;
+
+}
+
+
+.sortcut{
+    width: 63px;
+    height: 63px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+    
+    
+
+}
+
+
+.sortcut-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 6px;
+    
+    
+
+
+}
+
+.sortcut-tag{
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+
+
+.sortcut:hover{
+    cursor: pointer;
+    background-color: rgb(241 243 244);
+    border-radius: 7px;
+
+}
